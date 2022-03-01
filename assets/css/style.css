@@ -432,7 +432,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #149ddd;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -461,7 +461,7 @@ section {
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
-.resume .resume-item::before {
+.resume .resume-item::before{
   content: "";
   position: absolute;
   width: 16px;
@@ -469,10 +469,10 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #149ddd;
+  border: 2px solid #149ddd;
 }
-
+/*
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
